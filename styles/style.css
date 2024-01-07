@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.banner{
+    background-image: url('/resources/Banner\ Image.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 1200px;
+height: 600px;
+margin: 50px 140px 120px 140px;
+border: none;
+border-radius: 16px;
+}
+
+
+.banner-items{
+    padding: 100px 300px;
+}
+
+.banner-topic{
+    color: #fff;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 32px;
+font-weight: 400;
+margin-bottom: 0;
+}
+
+.banner-title{
+    color: #fff;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 70px;
+font-style: normal;
+font-weight: 900;
+margin-top: 16px;
+}
+
+/* offer files */
+
+.offer{
+    color: #050505;
+text-align: center;
+
+}
+
+.offer-title{
+    color: #F00;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 0;
+}
+
+.offer-info{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 45px;
+margin-bottom: 0;
+}
+
+.offer-categories{
+    color: #070211;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-top: 15px;
+margin-bottom: 48px;
+}
