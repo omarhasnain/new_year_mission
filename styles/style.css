@@ -11,7 +11,7 @@
     background-size: cover;  
     width: 1200px;
 height: 600px;
-margin: 50px 140px 120px 140px;
+margin: 50px 70px 120px 70px;
 border: none;
 border-radius: 16px;
 }
@@ -85,7 +85,7 @@ margin-bottom: 48px;
     background-size: cover;
     border: none;
     border-radius: 16px;
-    margin: 120px 140px;
+    margin: 120px 70px;
     padding: 0 138px 0 120px;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ text-transform: uppercase;
     text-align: center;
     padding: 100px 300px 214px 300px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin: 120px 140px 0px 140px;
+    margin: 120px 70px 0px 70px;
     border: none;
     border-radius: 16px;
 }
@@ -162,7 +162,7 @@ margin: 5px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin: 120px 140px;
+    margin: 120px 70px;
     align-items: center;
 }
 
@@ -222,7 +222,7 @@ margin-bottom: 0;
 /* holiday content */
 
 .holiday{
-    margin: 120px 140px;
+    margin: 120px 70px;
 }
 .holiday-content{
     text-align: center;
@@ -259,13 +259,15 @@ font-weight: 500;
 
 /* holiday visuals files */
 
-/* .holiday-visuals{
-    margin: 120px 140px;
+.holiday-visuals{
+   
     background-image: url('/resources/Group\ 101.png');
-    background-position:center;
+    /* background-position:center; */
     background-repeat: no-repeat;
     background-size: cover; 
-} */
+    width: 1200px;
+    height: 600px;
+} 
 /* 
 .holiday-visual-1{
     display: flex;
@@ -276,7 +278,7 @@ font-weight: 500;
 .holiday-discount{
     width: 429px;
 height: 433px;
-margin: 86px 140px 0px 0px;
+margin: 86px 70px 0px 0px;
 padding-left: 72px;
 } 
 .holiday-discount-box{
@@ -301,7 +303,7 @@ margin-bottom: 0;
 .portfolio{
     display: block;
     flex-wrap: wrap;
-    margin: 120px 140px;
+    margin: 120px 70px;
     
 }
 
