@@ -5,7 +5,7 @@
 /* banner files */
 
 .banner{
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;  
@@ -80,7 +80,7 @@ margin-bottom: 48px;
 
 .party-banner{
     display: flex;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
@@ -283,7 +283,7 @@ padding-left: 72px;
 }
 .holiday-visual-2{
     border-radius: 16px 0px 16px 16px;
-background: url('/resources/Rectangle\ 2.png');
+background: url('../resources/Rectangle\ 2.png');
 background-size: cover;
 
 height: 229px;
