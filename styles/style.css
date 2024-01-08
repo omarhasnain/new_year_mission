@@ -86,7 +86,7 @@ margin-bottom: 48px;
     border: none;
     border-radius: 16px;
     margin: 120px 70px;
-    padding: 0 138px 0 120px;
+    padding: 0 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,8 +127,16 @@ font-weight: 700;
 text-transform: uppercase;
 
 }
+
+.btn-primary:hover{
+        border: 2px solid #F00;
+        border-radius: 5px;
+        background-color: #FFF;
+        color: #F00;
+}
 .party-pic{
     padding-top: 72px;
+    padding-left: 35px;
     padding-bottom: 72px;
 }
 
@@ -262,46 +270,17 @@ font-weight: 500;
 .holiday-visuals{
    
     background-image: url('/resources/Group\ 101.png');
-    /* background-position:center; */
     background-repeat: no-repeat;
     background-size: cover; 
     width: 1200px;
     height: 600px;
-} 
-/* 
-.holiday-visual-1{
-    display: flex;
-    justify-content:space-between;
-    gap: 50px;
-}
-
-.holiday-discount{
-    width: 429px;
-height: 433px;
-margin: 86px 70px 0px 0px;
-padding-left: 72px;
-} 
-.holiday-discount-box{
-    max-width: 450px;
-    max-height: 900px;
     margin-bottom: 0;
-    mix-blend-mode:color-dodge;
-}
-.holiday-visual-2{
-    border-radius: 16px 0px 16px 16px;
-background: url('../resources/Rectangle\ 2.png');
-background-size: cover;
-
-height: 229px;
-width: 1000px;
-margin-bottom: 0;
-
-} */
+} 
 
 /* Portfolio files */
 
 .portfolio{
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     margin: 120px 70px;
     
@@ -336,4 +315,104 @@ font-weight: 400;
     justify-content: space-around;
     width: 380px;
     padding: 5px;
+    transition: ease-in 0.1s; 
+}
+.portfolio-image:hover{
+    width: 385px;
+    border-radius: 16px;
+    background-color: rgb(255, 104, 104);
+}
+
+/* Subscribe files */
+
+.subscribe{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: 0 70px 0 70px;
+    padding: 150px ;
+}
+
+.subscribe-mail{
+    margin-bottom: 0;
+}
+.subscribe-title{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 16px;
+margin-bottom: 0;
+}
+
+.subscribe-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-top: 40px;
+margin-bottom: 0;
+}
+
+.subscribe-box{
+    margin-top: 48px;
+    align-items: center;
+}
+
+.subscribe-input{
+    border-radius: 50px 0px 0px 50px;
+background: #FFF;
+padding: 16px 60px 12px 20px;
+margin-right: 0;
+border: none;
+}
+
+.subscribe-button{
+    margin-left: -5px;
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 24px 10px 24px;
+background: #F00;
+color: #fff;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
+.subscribe-button:hover{
+    background-color: #FFF;
+    border: 2px solid #F00;
+    color: #F00;
+}
+
+/* footer section */
+.footer-content{
+    background-color: #070211;
+    margin-top: 120px;
+    padding: 90px 70px;
+}
+
+.footer-description{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px 50px 70px;
+}
+.footer-address{
+    width: 45%;
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+
+.footer-contact{width: 45%;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
 }
