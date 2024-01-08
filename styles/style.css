@@ -1,5 +1,9 @@
+/* google fonts files */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* banner files */
+
 .banner{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
     background-position:center;
@@ -126,4 +130,204 @@ text-transform: uppercase;
 .party-pic{
     padding-top: 72px;
     padding-bottom: 72px;
+}
+
+/* location files */
+
+.location{
+    text-align: center;
+    padding: 100px 300px 214px 300px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 140px 0px 140px;
+    border: none;
+    border-radius: 16px;
+}
+
+.location-description{
+    color: #070211;
+font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+margin: 5px;
+
+}
+
+.location-item{
+    color: #F00;
+}
+
+/* Coming Soon files */
+
+.coming-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 120px 140px;
+    align-items: center;
+}
+
+.coming-column{
+    width: 55%;
+    margin: 0;
+    
+}
+
+.coming-offer{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+}
+
+.coming-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 16px;
+margin-bottom: 0;
+}
+
+.coming-description{
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.coming-party-image{
+    border: 10px solid red;
+    border-radius: 463px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.coming-year{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0;
+}
+
+/* holiday files */
+
+/* holiday content */
+
+.holiday{
+    margin: 120px 140px;
+}
+.holiday-content{
+    text-align: center;
+}
+
+.holiday-info{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0;
+}
+
+.holiday-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin-top: 16px;
+margin-bottom: 0;
+}
+
+.holiday-item{
+    color: #F00;
+}
+.holiday-description{
+    padding: 0 266px;
+    margin: 28px 0 64px 0;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+
+/* holiday visuals files */
+
+.holiday-visuals{
+    margin: 120px 140px;
+}
+
+.holiday-visual-1{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+}
+
+.holiday-discount{
+    width: 429px;
+height: 433px;
+margin: 86px 140px 0px 0px;
+padding-left: 72px;
+} 
+.holiday-discount-box{
+    max-width: 450px;
+    max-height: 900px;
+    margin-bottom: 0;
+    mix-blend-mode:color-dodge;
+}
+.holiday-visual-2{
+    border-radius: 16px 0px 16px 16px;
+background: url('/resources/Rectangle\ 2.png');
+background-size: cover;
+
+height: 229px;
+width: 1000px;
+margin-bottom: 0;
+
+}
+
+/* Portfolio files */
+
+.portfolio{
+    display: block;
+    flex-wrap: wrap;
+    margin: 120px 140px;
+    
+}
+
+.portfolio-info{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0;
+}
+
+.portfolio-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 16px;
+margin-bottom: 0;
+}
+
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.portfolio-visual img{
+    align-items: center;
+    justify-content: space-around;
+    width: 380px;
+    padding: 5px;
 }
