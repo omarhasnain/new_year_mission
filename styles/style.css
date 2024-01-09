@@ -460,3 +460,14 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 500;
 }
+
+.unsubscribe a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.unsubscribe a:hover{
+    background-color: #FFF;
+    color: #070211;
+    padding: 10px;
+}
