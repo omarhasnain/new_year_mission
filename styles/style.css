@@ -391,27 +391,71 @@ text-transform: capitalize;
 }
 
 /* footer section */
+
 .footer-content{
     background-color: #070211;
     margin-top: 120px;
     padding: 90px 70px;
+    
 }
 
 .footer-description{
     display: flex;
     justify-content: space-between;
     padding: 100px 70px 50px 70px;
+    border-bottom: 2px solid #FFFFFF26 ;
+
 }
 .footer-address{
-    width: 45%;
+    width: 35%;
     color: #FFF;
 font-family: Inter;
 font-size: 20px;
 font-weight: 500;
 }
 
-.footer-contact{width: 45%;
+.footer-contact{
+    width: 25%;
 color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+align-items: center;
+
+}
+/* .footer-content hr{
+    width: 82.5%;
+    margin: 0px 70px 0 70px;
+    color: #00000067;
+
+} */
+
+/* social links */
+
+.social-links{
+    text-align: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #FFFFFF26 ;
+}
+
+.social-icons{
+    width: 40px;
+    height: 40px;
+    padding: 0 10px 48px 10px;
+    
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px 70px 120px 70px;
+}
+
+.rights p{
+    color: #FFF;
 font-family: Inter;
 font-size: 20px;
 font-weight: 500;
