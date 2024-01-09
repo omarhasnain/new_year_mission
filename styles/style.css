@@ -395,7 +395,7 @@ text-transform: capitalize;
 .footer-content{
     background-color: #070211;
     margin-top: 120px;
-    padding: 90px 70px;
+    padding: 10px 70px;
     
 }
 
@@ -451,7 +451,7 @@ align-items: center;
 .rights{
     display: flex;
     justify-content: space-between;
-    margin-top: 0px 70px 120px 70px;
+    margin: 0px 70px 60px 70px;
 }
 
 .rights p{
